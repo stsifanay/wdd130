@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>White Water Rafting</title>
+    <link rel="stylesheet" href="/wwr/styles/rafting.css">
+</head> 
+<body>
+    <header>
+        <img src="/wwr/images/splash.png" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+    <div class="hero">
+        <img src="/wwr/images/Rafting.jpg" alt="Rafting Image">
+        <h1>White Water Rafting</h1>
+        <article>
+            <img src="/wwr/images/happy-client.jpg" alt="happy client">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quis deserunt illo illum! </p>
+        </article>
+    </div>
+    <section id="history">
+        <h2>History</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quis deserunt illo illum!</p>
+    </section>
+    <section id="adventure">
+        <h2>Adventure Awaits You</h2>
+        <img src="/wwr/images/Rafting_1.jpg" alt="Rafting image 1">
+        <img src="/wwr/images/Rafting_2.jpg" alt="Rafting image 2">
+        <img src="/wwr/images/Rafting_3.jpg" alt="Rafting image 3">
+        <img src="/wwr/images/Rafting_4.jpg" alt="Rafting image 4">
+        <img src="/wwr/images/Rafting_5.jpg" alt="Rafting image 5">
+    </section>
+    </main>
+    <footer>
+        <footer>
+            <p>&copy; 2024 White Water Rafting | Designed by Stefan Tsifanay</p>
+            <nav class="social-media">
+            <a href="https://www.facebook.com">
+            <img src="/wwr/images/facebook.png" alt="Facebook">
+            <a href="https://www.instagram.com"> 
+            <img src="/wwr/images/instagram.png" alt="Instagram">
+            <a href="https://www.x.com"> 
+            <img src="/wwr/images/x.png" alt="X">
+        </nav>
+    </footer>
+</body>
+</html>
+
+<!-- My vs code won't sync with git that's why I put here style temporarily -->
+    <style>
+    :root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent-1: #cfcfb4;
+    --accent-2: #b4cde4;
+}
+/* header style */
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img { 
+    width: 100%; 
+    height: auto;
+}
+
+/* .hero article { */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    padding: 15px 25px;
+    border: 2px solid #cfcfb4;
+    border-radius: 0 4px 8px rgba  (0,0,0, 0.3);
+    flex-direction: row-reverse;
+}
+
+.hero article p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    flex: 1;
+}
+
+.hero h1 {
+position: absolute;
+text-align: center;
+top: 7%;
+transform: translate(175%, 80%);
+color: var(--accent-2);
+text-shadow: 5px 5px 5px black;
+/* z-index: 1; */
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent-1);
+    text-shadow: 5px 5px 5px black;
+}
+
+footer {
+    position: relative;
+  }
+
+footer p {
+position: absolute;
+text-align: center;
+}
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5%;
+  }
+    /* </style> */
