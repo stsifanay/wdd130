@@ -1,0 +1,39 @@
+/* Rafting.cc */
+:root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent-1: #cfcfb4;
+    --accent-2: #b4cde4;
+}
+/* header style */
+header {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.her {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 50%;
+}
